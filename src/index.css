@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.richcontent p {
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+
+.richcontent ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.richcontent ul li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.backdropp {
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+}
+
+.ck-content ol{
+  margin-left: 10px;
+}
+.ck-content ul{
+  margin-left: 10px;
+}
+
+ol li {
+  list-style-type: decimal;
+}
